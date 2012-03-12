@@ -12,7 +12,6 @@
 @interface MAImageView : NSView
 
 - (void)setCornerRadius:(float)radius;
-- (void)setBackgroundColor:(NSColor *)color;
 - (void)setBorderColor:(NSColor *)color;
 - (void)setBorderWidth:(float)width;
 - (void)setImage:(NSImage *)image;

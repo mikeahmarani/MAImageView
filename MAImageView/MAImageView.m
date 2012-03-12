@@ -68,11 +68,6 @@
     [self.layer setNeedsDisplay];    
 }
 
-- (void)setBackgroundColor:(NSColor *)color{
-    self.layer.backgroundColor = [self CGColorRefFromNSColor:color];
-    [self.layer setNeedsDisplay];
-}
-
 - (void)setBorderColor:(NSColor *)color{
     self.layer.borderColor = [self CGColorRefFromNSColor:color];
     [self.layer setNeedsDisplay];    

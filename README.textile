@@ -1,0 +1,21 @@
+h1. MAImageView
+
+@MAImageView@ is an extremely basic @CALayer@ based replacement for @NSImageView@.
+
+h2. Usage
+
+@MAImageView@ uses APIs that are only available as of Mac OS 10.6 and up.
+
+h3. Example
+
+<pre>
+MAImageView *imageView = [[MAImageView alloc] initWithFrame:NSMakeRect(0, 0, 100, 100)];
+
+[imageView setBorderColor:[NSColor blackColor]];
+[imageView setBorderWidth:2];
+[imageView setCornerRadius:10];
+[imageView setImage:[NSImage imageNamed:@"Image.png"]];    
+
+[self addSubview:imageView];
+</pre>
+
